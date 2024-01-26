@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
 @section('main')
-contenuto pagina
+contenuto dettaglio prodotto
     
 @endsection

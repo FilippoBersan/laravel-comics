@@ -1,10 +1,27 @@
 @import "~bootstrap/scss/bootstrap";
 @import "_partials/reset.scss";
 
-body {
-    //background-image: url("../img/duck.jpg");
+.top_bar {
+    height: 25px;
+    justify-content: end;
 
-    h1 {
-        color: blue;
+    .list_topbar {
+        position: relative;
+        right: 180px;
     }
+}
+
+.logo_img {
+    width: 80px;
+    height: 80px;
+}
+
+.jumbotron_img {
+    height: 500px;
+    width: 100%;
+}
+
+.list_header {
+    position: relative;
+    top: 10px;
 }
